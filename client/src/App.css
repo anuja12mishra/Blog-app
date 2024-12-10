@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   color: #222;
 }
@@ -61,4 +64,33 @@ div.post p.summary{
   margin: 10px 0;
   line-height: 1.4rem;
 
+}
+
+form.login, form.register {
+  max-width: 400px;
+  margin: 0 auto; /* Centers the form */
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%; /* Makes the input take the full width of the form */
+  padding: 5px 7px;
+  border: 0;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included within the width */
+}
+button{
+  width: 100%;
+  display: block;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+  padding: 7px 0;
+}
+form h1{
+  text-align: center;
+  text-decoration: underline;
 }
